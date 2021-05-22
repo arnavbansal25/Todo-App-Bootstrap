@@ -13,16 +13,66 @@
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="css/styles.css" />
 
-    <title>Skate Warehouse</title>
+    <title>Todo App</title>
 </head>
 
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-9 col-md-3 col-lg-2">
-                
-            </div>
+            <nav class="col-9 col-md-3 col-lg-2 nav navbar-expand-sm flex-column">
+                <!-- navbar toggler -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <a class="nav-link leftnav leftnav-active text-color2" data-toggle="collapse"
+                    href="#LeftNavbar">Logo</a>
+                <a class="nav-link leftnav" href="#">Projects</a>
+                <a class="nav-link leftnav" href="#">Dashboard</a>
+                <a class="nav-link leftnav" href="#">Timeline</a>
+            </nav>
+
+            <nav class="col-12 col-md-9 col-lg-10 navbar navbar-light p-0 row" width="80%">
+                <!-- navigation links -->
+                <div class="col-12 col-md-auto ml-auto">
+                    <ul class="nav flex-column">
+                        <ul class="navbar-nav ml-md-auto">
+                            <!-- cart -->
+                            <li class="nav-item mx-md-5">
+                                <a class="nav-link" herf="#"><i class="fas fa-shopping-cart"></i></a>
+                            </li>
+                            <!-- wish list -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Wish List</a>
+                            </li>
+                        </ul>
+
+                        <ul class="navbar-nav mr-auto">
+                            <!-- search -->
+                            <li class="nav-item mx-md-3">
+                                <span id="search-sign" class="nav-link" href="#"><span class="fas fa-search"></span>
+                                    SEARCH</span>
+                                <input id="search-bar" class="form-control" type="search" placeholder="Search"
+                                    aria-label="Search" size="10">
+                            </li>
+                            <!-- support -->
+                            <li class="nav-item mx-md-3">
+                                <a class="nav-link" href="#">SUPPORT</a>
+                            </li>
+                            <!-- gift card -->
+                            <li class="nav-item mx-md-3">
+                                <a class="nav-link" href="#">GIFT CARD</a>
+                            </li>
+                            <!-- login -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">LOGIN</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
         </div>
+        </nav>
+    </div>
     </div>
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
