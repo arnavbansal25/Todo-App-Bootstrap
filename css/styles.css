@@ -1,2 +1,9 @@
 body {
-  background: blue; }
+  padding: 0 2%; }
+
+.plus {
+  color: blue;
+  font-size: 3em; }
+
+.card {
+  background: #f0edff; }
