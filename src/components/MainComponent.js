@@ -13,6 +13,7 @@ class Main extends Component {
                 <Home />
 
                 <Footer />
+                
             </div>
         );
     }
